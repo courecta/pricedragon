@@ -57,6 +57,8 @@ cover/
 
 # Django stuff:
 *.log
+*.db
+*.sqlite3
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -192,3 +194,26 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scraped data (optional)
+data/scraped/
+data/temp/
+
+# Selenium
+chromedriver
+geckodriver
+*.exe
